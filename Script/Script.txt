@@ -1,0 +1,2 @@
+:log info "Mikrotik sending message to channel via telegram bot"
+/tool fetch url="https://api.telegram.org/bot<TOKEN>/sendMessage?chat_id=<CHAT_ID>&text=YourMessage"
